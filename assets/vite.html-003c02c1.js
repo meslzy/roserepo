@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-49cbedd4","path":"/executor/external/vite.html","title":"Vite executor","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1677952908000,"contributors":[{"name":"Meslzy","email":"i@meslzy.com","commits":1}]},"filePathRelative":"executor/external/vite.md"}');export{e as data};

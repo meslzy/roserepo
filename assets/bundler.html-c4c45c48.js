@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3d02390c","path":"/executor/bundler.html","title":"Bundler executor","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1677952908000,"contributors":[{"name":"Meslzy","email":"i@meslzy.com","commits":1}]},"filePathRelative":"executor/bundler.md"}');export{e as data};

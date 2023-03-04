@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d65c1274","path":"/executor/multiple.html","title":"Multiple executor","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1677952908000,"contributors":[{"name":"Meslzy","email":"i@meslzy.com","commits":1}]},"filePathRelative":"executor/multiple.md"}');export{e as data};

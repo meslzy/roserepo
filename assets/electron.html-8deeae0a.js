@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c2708b4e","path":"/runner/external/electron.html","title":"Electron runner","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1677952908000,"contributors":[{"name":"Meslzy","email":"i@meslzy.com","commits":1}]},"filePathRelative":"runner/external/electron.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-82de5c18","path":"/reference/config/workspace.html","title":"Workspace config","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1677952908000,"contributors":[{"name":"Meslzy","email":"i@meslzy.com","commits":1}]},"filePathRelative":"reference/config/workspace.md"}');export{e as data};
