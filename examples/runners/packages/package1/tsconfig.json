@@ -1,0 +1,17 @@
+{
+  "extends": "tsconfig-main/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./source/*"
+      ]
+    }
+  },
+  "include": [
+    "source"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "roserepo",
+  "description": "astonishing tool for managing monorepos",
+  "version": "0.0.4-alpha",
+  "main": "dist/roserepo.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "rose": "dist/bin.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "lint": "eslint lib --fix",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "^10.0.0",
+    "esbuild": "^0.17.8",
+    "esbuild-register": "^3.4.2",
+    "fs-extra": "^11.1.0",
+    "fast-glob": "3.2.12",
+    "nodemon": "^2.0.20",
+    "prompts": "^2.4.2",
+    "tiny-typed-emitter": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.2",
+    "@types/prompts": "^2.4.2",
+    "tsup": "^6.6.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "roserepo"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

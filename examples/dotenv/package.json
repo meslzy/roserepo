@@ -1,0 +1,12 @@
+{
+  "name": "piplines",
+  "scripts": {
+    "start": "rose run start -d"
+  },
+  "dependencies": {
+    "roserepo": "file:../../packages/roserepo"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}

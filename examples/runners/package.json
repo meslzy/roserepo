@@ -1,0 +1,20 @@
+{
+  "name": "piplines",
+  "scripts": {
+    "start": "rose run start -d",
+    "test": "rose run test -d"
+  },
+  "dependencies": {
+    "jest": "^29.4.3",
+    "tsup": "^6.6.3",
+    "roserepo": "file:../../packages/roserepo"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.4.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*",
+    "packages/*"
+  ]
+}

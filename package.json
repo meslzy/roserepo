@@ -1,0 +1,29 @@
+{
+  "name": "roserepo",
+  "version": "0.0.4-alpha",
+  "scripts": {
+    "dev:roserepo": "npm run dev --workspace roserepo",
+    "build:roserepo": "npm run build --workspace roserepo",
+    "dev": "rose run dev -d",
+    "build": "rose run build -d",
+    "lint": "rose run lint -d",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "next",
+    "@vuepress/plugin-external-link-icon": "next",
+    "@vuepress/plugin-google-analytics": "next",
+    "@vuepress/plugin-nprogress": "next",
+    "@vuepress/plugin-prismjs": "next",
+    "@vuepress/plugin-search": "next",
+    "vuepress": "next"
+  },
+  "workspaces": [
+    "packages/plugins/**",
+    "packages/*",
+    "shared/*",
+    "utils/*"
+  ],
+  "private": true
+}

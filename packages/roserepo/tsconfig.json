@@ -1,0 +1,33 @@
+{
+  "extends": "tsconfig-main/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist",
+    //
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./lib/*"
+      ],
+      "~bin/*": [
+        "./lib/bin/*"
+      ],
+      "~roserepo/*": [
+        "./lib/roserepo/*"
+      ],
+      "~shared/*": [
+        "./lib/shared/*"
+      ],
+      "~types/*": [
+        "./lib/types/*"
+      ]
+    },
+    "esModuleInterop": true
+  },
+  "include": [
+    "lib"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

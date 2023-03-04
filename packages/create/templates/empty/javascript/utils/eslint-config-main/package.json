@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-main",
+  "main": ".eslintrc.json",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0"
+  },
+  "private": true
+}

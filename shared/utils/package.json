@@ -1,0 +1,8 @@
+{
+  "name": "@shared/utils",
+  "main": "source/index.ts",
+  "scripts": {
+    "lint": "eslint --ext .ts ."
+  },
+  "private": true
+}

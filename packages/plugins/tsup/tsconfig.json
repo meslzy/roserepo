@@ -1,0 +1,13 @@
+{
+  "extends": "tsconfig-main/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "source",
+    "outDir": "dist"
+  },
+  "include": [
+    "source"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}

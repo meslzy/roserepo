@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsup",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "app1": "*",
+    "app2": "*"
+  }
+}
